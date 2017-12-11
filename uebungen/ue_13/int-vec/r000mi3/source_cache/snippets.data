@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="/homea/hpclab/train198/uebungen/ue_13/numarray_serial_omp.c" md5="">
+    <snippet line="19">
+      <line line="16"/>
+      <line line="17">    printf("Enter array dimension: ");</line>
+      <line line="18">    scanf("%d",&amp;k);</line>
+      <line line="19"/>
+      <line line="20">    iVector = (int*) malloc (k * sizeof(int));</line>
+    </snippet>
+  </file>
+</snippets>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2017/12/11 08:58:01</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>/homea/hpclab/train198/uebungen/ue_12/vector_operations/r002ti3/r002ti3.inspxe</arg>
+</msg>
+<msg id="4" tool="tc">
+  <type>START</type>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:01 2017</timestamp>
+</msg>
+<msg id="5" tool="tc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>/homea/hpclab/train198/uebungen/ue_12/vector_ops_serial.exe</arg>
+  <arg>6501</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:01 2017</timestamp>
+</msg>
+<msg id="6" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>/homea/hpclab/train198/uebungen/ue_12/vector_ops_serial.exe</arg>
+  <arg>0x400000</arg>
+  <arg>0x60227f</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:01 2017</timestamp>
+</msg>
+<msg id="7" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <arg>0x2b79c0ada000</arg>
+  <arg>0x2b79c0cfc14f</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:01 2017</timestamp>
+</msg>
+<msg id="8" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <arg>0x2b79c0afa000</arg>
+  <arg>0x2b79c0afafdc</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:01 2017</timestamp>
+</msg>
+<msg id="9" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/libm.so.6</arg>
+  <arg>0x2b79d5b38000</arg>
+  <arg>0x2b79d5e39147</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:01 2017</timestamp>
+</msg>
+<msg id="10" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/local/software/jureca/Stages/2017b/software/imkl/2018.0.128-ipsmpi-2017b/lib/intel64/libiomp5.so</arg>
+  <arg>0x2b79d5e5b000</arg>
+  <arg>0x2b79d61fe9ff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:01 2017</timestamp>
+</msg>
+<msg id="11" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/local/software/jureca/Stages/2017b/software/GCCcore/5.4.0/lib64/libgcc_s.so.1</arg>
+  <arg>0x2b79d61ff000</arg>
+  <arg>0x2b79d621641f</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:01 2017</timestamp>
+</msg>
+<msg id="12" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/libpthread.so.0</arg>
+  <arg>0x2b79d6217000</arg>
+  <arg>0x2b79d643245f</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:01 2017</timestamp>
+</msg>
+<msg id="13" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/libc.so.6</arg>
+  <arg>0x2b79d6433000</arg>
+  <arg>0x2b79d67f31ff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:01 2017</timestamp>
+</msg>
+<msg id="14" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/libdl.so.2</arg>
+  <arg>0x2b79d67f4000</arg>
+  <arg>0x2b79d69f712f</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:01 2017</timestamp>
+</msg>
+<msg id="15" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/local/software/jureca/Stages/2017b/software/Inspector/2018/inspector_2018.1.0.522981/lib64/runtime/libittnotify.so</arg>
+  <arg>0x2b79d8219000</arg>
+  <arg>0x2b79d842489f</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:02 2017</timestamp>
+</msg>
+<msg id="16" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6501</arg>
+  <arg>0</arg>
+  <arg>1607</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:02 2017</timestamp>
+</msg>
+<msg id="17" tool="tc">
+  <type>THREADNAME</type>
+  <arg>6501</arg>
+  <arg>OMP Master Thread #0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:03 2017</timestamp>
+</msg>
+<msg id="18" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6758,6501</arg>
+  <arg>0,0</arg>
+  <arg>12,25655</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:03 2017</timestamp>
+</msg>
+<msg id="19" tool="tc">
+  <type>CTSA_NO_STACK</type>
+  <severity>WARNING</severity>
+  <timestamp>Mon Dec 11 08:58:03 2017</timestamp>
+</msg>
+<msg id="20" tool="tc">
+  <type>THREADNAME</type>
+  <arg>6760</arg>
+  <arg>OMP Worker Thread #3</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="21" tool="tc">
+  <type>THREADNAME</type>
+  <arg>6759</arg>
+  <arg>OMP Worker Thread #2</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="22" tool="tc">
+  <type>THREADNAME</type>
+  <arg>6758</arg>
+  <arg>OMP Worker Thread #1</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="23" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6760,6759,6758,6501</arg>
+  <arg>1,1,1,0</arg>
+  <arg>944,1152,1685,914</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="24" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/homea/hpclab/train198/uebungen/ue_12/vector_ops_serial.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="25" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="26" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="27" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/libm.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="28" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/local/software/jureca/Stages/2017b/software/imkl/2018.0.128-ipsmpi-2017b/lib/intel64/libiomp5.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="29" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/local/software/jureca/Stages/2017b/software/GCCcore/5.4.0/lib64/libgcc_s.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="30" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/libpthread.so.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="31" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/libc.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="32" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/libdl.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="33" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/local/software/jureca/Stages/2017b/software/Inspector/2018/inspector_2018.1.0.522981/lib64/runtime/libittnotify.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="34" tool="tc">
+  <type>PROCESS_TERMINATE</type>
+  <arg>/homea/hpclab/train198/uebungen/ue_12/vector_ops_serial.exe</arg>
+  <arg>6501</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="35" tool="tc">
+  <type>ANALYSIS_COMPLETE</type>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="36" tool="tc">
+  <type>STOP</type>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 08:58:04 2017</timestamp>
+</msg>
+<msg id="37" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="38" tool="runtool">
+  <type>marker-file</type>
+  <arg>/homea/hpclab/train198/uebungen/ue_12/vector_operations/r002ti3/r002ti3.inspxe</arg>
+</msg>
+<msg id="39" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="40" tool="runtool">
+  <type>log-end</type>
+  <arg>2017/12/11 08:58:08</arg>
+</msg>
+
+</log>
+

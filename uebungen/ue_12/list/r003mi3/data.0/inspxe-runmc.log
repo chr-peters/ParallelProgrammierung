@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2017/12/11 09:20:59</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>/homea/hpclab/train198/uebungen/ue_12/list/r003mi3/r003mi3.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>/homea/hpclab/train198/uebungen/ue_12/list_serial.exe</arg>
+  <arg>15936</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:20:59 2017</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>/homea/hpclab/train198/uebungen/ue_12/list_serial.exe</arg>
+  <arg>0x400000</arg>
+  <arg>0x602207</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:20:59 2017</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <arg>0x2b0100aa3000</arg>
+  <arg>0x2b0100cc514f</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:20:59 2017</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>[vdso]</arg>
+  <arg>0x7ffe4509d000</arg>
+  <arg>0x7ffe4509dfdc</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:20:59 2017</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>/usr/lib64/libm.so.6</arg>
+  <arg>0x2b0115793000</arg>
+  <arg>0x2b0115a94147</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:00 2017</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>/usr/local/software/jureca/Stages/2017b/software/imkl/2018.0.128-ipsmpi-2017b/lib/intel64/libiomp5.so</arg>
+  <arg>0x2b0115b2e000</arg>
+  <arg>0x2b0115ed19ff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:00 2017</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>/usr/local/software/jureca/Stages/2017b/software/GCCcore/5.4.0/lib64/libgcc_s.so.1</arg>
+  <arg>0x2b0115ee2000</arg>
+  <arg>0x2b0115ef941f</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:00 2017</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>/usr/lib64/libpthread.so.0</arg>
+  <arg>0x2b0115f5d000</arg>
+  <arg>0x2b011617845f</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:00 2017</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>/usr/lib64/libc.so.6</arg>
+  <arg>0x2b0116179000</arg>
+  <arg>0x2b01165391ff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:00 2017</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>/usr/lib64/libdl.so.2</arg>
+  <arg>0x2b011653a000</arg>
+  <arg>0x2b011673d12f</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:00 2017</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>/usr/local/software/jureca/Stages/2017b/software/Inspector/2018/inspector_2018.1.0.522981/lib64/runtime/libittnotify.so</arg>
+  <arg>0x2b0118044000</arg>
+  <arg>0x2b011824f89f</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:00 2017</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15936</arg>
+  <arg>0</arg>
+  <arg>12793</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:00 2017</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15936</arg>
+  <arg>OMP Master Thread #0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:01 2017</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15936</arg>
+  <arg>0</arg>
+  <arg>14199</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:01 2017</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15956</arg>
+  <arg>OMP Worker Thread #1</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="19" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15963</arg>
+  <arg>OMP Worker Thread #2</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="20" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15964</arg>
+  <arg>OMP Worker Thread #3</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="21" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15965</arg>
+  <arg>OMP Worker Thread #4</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="22" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15966</arg>
+  <arg>OMP Worker Thread #5</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="23" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15967</arg>
+  <arg>OMP Worker Thread #6</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="24" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15968</arg>
+  <arg>OMP Worker Thread #7</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="25" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15970</arg>
+  <arg>OMP Worker Thread #8</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="26" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15971</arg>
+  <arg>OMP Worker Thread #9</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="27" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15972</arg>
+  <arg>OMP Worker Thread #10</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="28" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15973</arg>
+  <arg>OMP Worker Thread #11</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="29" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15974</arg>
+  <arg>OMP Worker Thread #12</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="30" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15975</arg>
+  <arg>OMP Worker Thread #13</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="31" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15976</arg>
+  <arg>OMP Worker Thread #14</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="32" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15977</arg>
+  <arg>OMP Worker Thread #15</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="33" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15978</arg>
+  <arg>OMP Worker Thread #16</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="34" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15979</arg>
+  <arg>OMP Worker Thread #17</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="35" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15980</arg>
+  <arg>OMP Worker Thread #18</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="36" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15981</arg>
+  <arg>OMP Worker Thread #19</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="37" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15982</arg>
+  <arg>OMP Worker Thread #20</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="38" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15983</arg>
+  <arg>OMP Worker Thread #21</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="39" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15984</arg>
+  <arg>OMP Worker Thread #22</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="40" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15985</arg>
+  <arg>OMP Worker Thread #23</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="41" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15986</arg>
+  <arg>OMP Worker Thread #24</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="42" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15987</arg>
+  <arg>OMP Worker Thread #25</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="43" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15988</arg>
+  <arg>OMP Worker Thread #26</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="44" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15989</arg>
+  <arg>OMP Worker Thread #27</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="45" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15990</arg>
+  <arg>OMP Worker Thread #28</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="46" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15991</arg>
+  <arg>OMP Worker Thread #29</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="47" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15992</arg>
+  <arg>OMP Worker Thread #30</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="48" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15993</arg>
+  <arg>OMP Worker Thread #31</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="49" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15994</arg>
+  <arg>OMP Worker Thread #32</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="50" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15995</arg>
+  <arg>OMP Worker Thread #33</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="51" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15996</arg>
+  <arg>OMP Worker Thread #34</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="52" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15998</arg>
+  <arg>OMP Worker Thread #35</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="53" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15999</arg>
+  <arg>OMP Worker Thread #36</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="54" tool="mc">
+  <type>THREADNAME</type>
+  <arg>16000</arg>
+  <arg>OMP Worker Thread #37</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="55" tool="mc">
+  <type>THREADNAME</type>
+  <arg>16001</arg>
+  <arg>OMP Worker Thread #38</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="56" tool="mc">
+  <type>THREADNAME</type>
+  <arg>16003</arg>
+  <arg>OMP Worker Thread #39</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="57" tool="mc">
+  <type>THREADNAME</type>
+  <arg>16004</arg>
+  <arg>OMP Worker Thread #40</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="58" tool="mc">
+  <type>THREADNAME</type>
+  <arg>16005</arg>
+  <arg>OMP Worker Thread #41</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="59" tool="mc">
+  <type>THREADNAME</type>
+  <arg>16006</arg>
+  <arg>OMP Worker Thread #42</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="60" tool="mc">
+  <type>THREADNAME</type>
+  <arg>16007</arg>
+  <arg>OMP Worker Thread #43</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="61" tool="mc">
+  <type>THREADNAME</type>
+  <arg>16008</arg>
+  <arg>OMP Worker Thread #44</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="62" tool="mc">
+  <type>THREADNAME</type>
+  <arg>16009</arg>
+  <arg>OMP Worker Thread #45</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="63" tool="mc">
+  <type>THREADNAME</type>
+  <arg>16010</arg>
+  <arg>OMP Worker Thread #46</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="64" tool="mc">
+  <type>THREADNAME</type>
+  <arg>16011</arg>
+  <arg>OMP Worker Thread #47</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="65" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15936,15956,15963,15964,15965,15966,15967,15968,15970,15971,15972,15973,15974,15975,15976,15977,15978,15979,15980,15981,15982,15983,15984,15985,15986,15987,15988,15989,15990,15991,15992,15993,15994,15995,15996,15998,15999,16000,16001,16003,16004,16005,16006,16007,16008,16009,16010,16011</arg>
+  <arg>0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <arg>20531,11623,9438,11891,10803,11502,8240,10250,10585,12074,9984,10527,9539,8893,9997,8149,10206,8981,7175,8725,9169,3707,8396,10027,8288,11292,9681,10434,12030,9258,9245,9061,10554,9290,12271,12618,11055,10098,14346,9698,9612,10890,8947,9512,10058,7951,4845,11492</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:02 2017</timestamp>
+</msg>
+<msg id="66" tool="mc">
+  <type>PROCESS_COMPLETE</type>
+  <arg>/homea/hpclab/train198/uebungen/ue_12/list_serial.exe</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:03 2017</timestamp>
+</msg>
+<msg id="67" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>/homea/hpclab/train198/uebungen/ue_12/list_serial.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:03 2017</timestamp>
+</msg>
+<msg id="68" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:03 2017</timestamp>
+</msg>
+<msg id="69" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>[vdso]</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:03 2017</timestamp>
+</msg>
+<msg id="70" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>/usr/lib64/libm.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:03 2017</timestamp>
+</msg>
+<msg id="71" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>/usr/local/software/jureca/Stages/2017b/software/imkl/2018.0.128-ipsmpi-2017b/lib/intel64/libiomp5.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:03 2017</timestamp>
+</msg>
+<msg id="72" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>/usr/local/software/jureca/Stages/2017b/software/GCCcore/5.4.0/lib64/libgcc_s.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:03 2017</timestamp>
+</msg>
+<msg id="73" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>/usr/lib64/libpthread.so.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:03 2017</timestamp>
+</msg>
+<msg id="74" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>/usr/lib64/libc.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:03 2017</timestamp>
+</msg>
+<msg id="75" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>/usr/lib64/libdl.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:03 2017</timestamp>
+</msg>
+<msg id="76" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>/usr/local/software/jureca/Stages/2017b/software/Inspector/2018/inspector_2018.1.0.522981/lib64/runtime/libittnotify.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:03 2017</timestamp>
+</msg>
+<msg id="77" tool="mc">
+  <type>ANALYSIS_COMPLETE</type>
+  <arg>/homea/hpclab/train198/uebungen/ue_12/list_serial.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 09:21:03 2017</timestamp>
+</msg>
+<msg id="78" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="79" tool="runtool">
+  <type>marker-file</type>
+  <arg>/homea/hpclab/train198/uebungen/ue_12/list/r003mi3/r003mi3.inspxe</arg>
+</msg>
+<msg id="80" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="81" tool="runtool">
+  <type>log-end</type>
+  <arg>2017/12/11 09:21:07</arg>
+</msg>
+
+</log>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="/homea/hpclab/train198/uebungen/ue_11/mxv_serial.c" md5="">
+    <snippet line="41">
+      <line line="38">  for (i=0; i &lt; SIZE; i++)</line>
+      <line line="39">    {</line>
+      <line line="40">      for (j=0; j &lt; SIZE; j++)</line>
+      <line line="41">    c[i] += (A[i][j] * b[j]);</line>
+      <line line="42">      </line>
+    </snippet>
+  </file>
+</snippets>

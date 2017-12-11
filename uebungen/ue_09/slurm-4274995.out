@@ -1,0 +1,21 @@
++ [[ hB != hxB ]]
++ XTRACE_STATE=-x
++ [[ hxB != hxB ]]
++ VERBOSE_STATE=+v
++ set +xv
++ unset XTRACE_STATE VERBOSE_STATE
++ (( PROCS = 1  ))
++ (( PROCS <= 4 ))
++ srun --ntasks 1 pi_serial.exe
+srun: Warning: can't run 1 processes on 2 nodes, setting nnodes to 1
++ (( PROCS ++  ))
++ (( PROCS <= 4 ))
++ srun --ntasks 2 pi_serial.exe
++ (( PROCS ++  ))
++ (( PROCS <= 4 ))
++ srun --ntasks 3 pi_serial.exe
++ (( PROCS ++  ))
++ (( PROCS <= 4 ))
++ srun --ntasks 4 pi_serial.exe
++ (( PROCS ++  ))
++ (( PROCS <= 4 ))

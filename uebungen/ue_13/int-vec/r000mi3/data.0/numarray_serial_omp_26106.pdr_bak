@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<diags major="2" minor="0">
+
+<diag id="1">
+	<type>233</type>
+	<message>
+		<timestamp>152650950</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>26106</threadid>
+			<stackstamp>152687890</stackstamp>
+			<stacktrace>
+			<loc>
+			<mod>/lib64/ld-linux-x86-64.so.2</mod>
+			<rva>0x1170</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="2">
+	<type>232</type>
+	<message>
+		<timestamp>59782397079</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>26106</threadid>
+			<stackstamp>59782600514</stackstamp>
+			<stacktrace>
+			<loc>
+			<mod>/usr/lib64/libc.so.6</mod>
+			<rva>0xe8c30</rva>
+			</loc>
+			<loc>
+			<mod>/usr/lib64/libc.so.6</mod>
+			<rva>0x7759d</rva>
+			</loc>
+			<loc>
+			<mod>/usr/lib64/libc.so.6</mod>
+			<rva>0x7852b</rva>
+			</loc>
+			<loc>
+			<mod>/usr/lib64/libc.so.6</mod>
+			<rva>0x5b2d5</rva>
+			</loc>
+			<loc>
+			<mod>/usr/lib64/libc.so.6</mod>
+			<rva>0x68b04</rva>
+			</loc>
+			<loc>
+			<mod>/homea/hpclab/train198/uebungen/ue_13/numarray_serial_omp.exe</mod>
+			<rva>0xc9f</rva>
+			</loc>
+			<loc>
+			<mod>/usr/lib64/libc.so.6</mod>
+			<rva>0x21b33</rva>
+			</loc>
+			<loc>
+			<mod>/homea/hpclab/train198/uebungen/ue_13/numarray_serial_omp.exe</mod>
+			<rva>0xb54</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="3">
+	<type>231</type>
+	<message>
+		<timestamp>59787445827</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>26106</threadid>
+			<stackstamp>59787499044</stackstamp>
+		</thread>
+	</message>
+</diag>
+</diags>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="/homea/hpclab/train198/uebungen/ue_12/vector_ops_serial.c" md5="">
+    <snippet line="42">
+      <line line="39">    sum += vec[i];</line>
+      <line line="40"/>
+      <line line="41">  total_checksum += sum;</line>
+      <line line="42"/>
+      <line line="43">  return sum;</line>
+    </snippet>
+  </file>
+</snippets>

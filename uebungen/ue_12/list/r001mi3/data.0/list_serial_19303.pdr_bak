@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<diags major="2" minor="0">
+
+<diag id="1">
+	<type>233</type>
+	<message>
+		<timestamp>107645307</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>19303</threadid>
+			<stackstamp>107691571</stackstamp>
+			<stacktrace>
+			<loc>
+			<mod>/lib64/ld-linux-x86-64.so.2</mod>
+			<rva>0x1170</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="2">
+	<type>233</type>
+	<message>
+		<timestamp>5656361957</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>19308</threadid>
+			<stackstamp>5656446335</stackstamp>
+			<stacktrace>
+			<loc>
+			<mod>/usr/local/software/jureca/Stages/2017b/software/imkl/2018.0.128-ipsmpi-2017b/lib/intel64/libiomp5.so</mod>
+			<rva>0xb5d10</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="3">
+	<type>233</type>
+	<message>
+		<timestamp>5755068551</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>19309</threadid>
+			<stackstamp>5755123109</stackstamp>
+			<stacktrace>
+			<loc>
+			<mod>/usr/local/software/jureca/Stages/2017b/software/imkl/2018.0.128-ipsmpi-2017b/lib/intel64/libiomp5.so</mod>
+			<rva>0xb5d10</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="4">
+	<type>233</type>
+	<message>
+		<timestamp>5890660409</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>19310</threadid>
+			<stackstamp>5890714651</stackstamp>
+			<stacktrace>
+			<loc>
+			<mod>/usr/local/software/jureca/Stages/2017b/software/imkl/2018.0.128-ipsmpi-2017b/lib/intel64/libiomp5.so</mod>
+			<rva>0xb5d10</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="5">
+	<type>231</type>
+	<message>
+		<timestamp>7901049435</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #1</thrname>
+			<threadid>19308</threadid>
+			<stackstamp>7901081393</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="6">
+	<type>231</type>
+	<message>
+		<timestamp>7999953809</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #2</thrname>
+			<threadid>19309</threadid>
+			<stackstamp>8000009151</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="7">
+	<type>231</type>
+	<message>
+		<timestamp>8003194499</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #3</thrname>
+			<threadid>19310</threadid>
+			<stackstamp>8003229089</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="8">
+	<type>231</type>
+	<message>
+		<timestamp>8369411742</timestamp>
+		<thread>
+			<thrname>OMP Master Thread #0</thrname>
+			<threadid>19303</threadid>
+			<stackstamp>8369465609</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="9">
+	<type>1012</type>
+	<message>
+		<timestamp>8390348417</timestamp>
+		<mess_blocks>20</mess_blocks>
+		<defined>
+			<thrname>OMP Master Thread #0</thrname>
+			<size>320</size>
+			<threadid>19303</threadid>
+			<stackstamp>1850636730</stackstamp>
+			<stacktrace>
+			<loc>
+			<mod>/homea/hpclab/train198/uebungen/ue_12/list_serial.exe</mod>
+			<rva>0xd56</rva>
+			</loc>
+			<loc>
+			<mod>/usr/lib64/libc.so.6</mod>
+			<rva>0x21b33</rva>
+			</loc>
+			<loc>
+			<mod>/homea/hpclab/train198/uebungen/ue_12/list_serial.exe</mod>
+			<rva>0xad4</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+</diags>

@@ -1,0 +1,6 @@
+Rank 1, color 1, new rank 0 has Message: 23
+Rank 2, color 0, new rank 1 has Message: 4711
+Rank 3, color 1, new rank 1 has Message: 23
+Rank 0, color 0, new rank 0 has Message: 4711
+Rank 4, color 0, new rank 2 has Message: 4711
+Rank 5, color 1, new rank 2 has Message: 23

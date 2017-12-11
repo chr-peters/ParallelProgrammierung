@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="/homea/hpclab/train198/uebungen/ue_12/list_serial.c" md5="">
+    <snippet line="36">
+      <line line="33"/>
+      <line line="34">  /* create list */</line>
+      <line line="35">  head = (node *) malloc (sizeof(node));</line>
+      <line line="36">  p = head;</line>
+      <line line="37">  for(i=0; i&lt;LIST_ELEMS; ++i){</line>
+    </snippet>
+    <snippet line="39">
+      <line line="36">  p = head;</line>
+      <line line="37">  for(i=0; i&lt;LIST_ELEMS; ++i){</line>
+      <line line="38">    p-&gt;next = (node *) malloc (sizeof(node));</line>
+      <line line="39">    p = p-&gt;next;</line>
+      <line line="40">  }</line>
+    </snippet>
+  </file>
+</snippets>
