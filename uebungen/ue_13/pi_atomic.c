@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
   tend = esecs();
   time = tend - tstart;
 
-  printf("%d %f %f\n", n, time, pi);
+  printf("%d %f %f\n", n, time*1000000, pi);
 
   return 0;
 }
