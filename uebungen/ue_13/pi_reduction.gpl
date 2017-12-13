@@ -1,0 +1,22 @@
+# (PostScript output)
+#set terminal postscript eps color solid 12
+#set output  "pi_sync.eps"
+
+set xlabel "n"
+set ylabel "Time (us)"
+
+#set xrange [10:1000]
+#set yrange [1:1000]
+
+set title "Zeitmessung fuer verschieden Synchronisationstechniken"
+
+set logscale x
+set logscale y
+
+
+plot	"reduction.dat" u 9:12 ti "reduction" with linesp lw 2, \
+	"critical.dat"  u 9:12 ti "critical" with linesp lw 2, \
+	"atomic.dat"    u 9:12 ti "atomic" with linesp lw 2
+
+
+pause -1 "Hit return to continue"
