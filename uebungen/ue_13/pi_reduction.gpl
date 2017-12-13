@@ -14,9 +14,9 @@ set logscale x
 set logscale y
 
 
-plot	"reduction.dat" u 9:12 ti "reduction" with linesp lw 2, \
-	"critical.dat"  u 9:12 ti "critical" with linesp lw 2, \
-	"atomic.dat"    u 9:12 ti "atomic" with linesp lw 2
+plot	"reduction.dat" with linesp lw 2, \
+	"critical.dat" with linesp lw 2, \
+	"atomic.dat" with linesp lw 2
 
 
 pause -1 "Hit return to continue"
